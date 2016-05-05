@@ -1,0 +1,82 @@
+body {
+   font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* PAGE TOP */
+
+#pageTop {
+   background: url(header_sliver.png) repeat-x;
+   background-size: contain;
+   height: 90px;
+}
+#pageTop > #pageTopWrap {
+   width: 1000px;
+   margin: 0 auto;
+}
+#logo {
+   height: 100px;
+   width: 100px;
+   border-radius: 50px 50px;
+   margin-top: -5px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo {
+   float: left;
+   width: 100px;
+}
+#pageTop > #pageTopWrap > #pageTopRest {
+   float: left;
+   width: 900px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > div {
+   height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div {
+   margin: 8px 0 0 16px;
+   padding: 4px;
+   text-align: right;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a {
+   color: #909090;
+   text-decoration: none;
+   text-align: right;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a:hover {
+   color: #c0e73d;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div {
+   margin: 0 20px;
+   padding: 4px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a {
+   display: block;
+   float: left;
+   color: #909090;
+   text-decoration: none;
+   margin: 2px 16px 0;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a:hover {
+   color: #c0e73d;
+}
+#homeIcon {
+   margin-top: -2px;
+   color: green;
+}
+
+
+/* PAGE MIDDLE */
+
+#pageMiddle {
+   width: 1000px;
+   height: 900px;
+   margin: 0 auto;
+}
+
+/* PAGE BOTTOM */
+
+#pageBottom {
+   background: #666;
+   padding: 24px;
+   font-size: 12px;
+   color: #ccc;
+   text-align: center;
+}

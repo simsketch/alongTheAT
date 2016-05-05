@@ -1,0 +1,7 @@
+# 1 ---- Establish custom 404 page ----
+
+ErrorDocument 404 http://www.tylerlego.com/filenotfound.php
+
+# 2 ---- Prevent directory file listing in all of your folders
+
+IndexIgnore *
